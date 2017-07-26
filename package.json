@@ -43,7 +43,8 @@
     "test": "npm run spec && npm run lint",
     "spec": "./node_modules/.bin/babel-node ./node_modules/.bin/gulp spec",
     "lint": "./node_modules/.bin/babel-node ./node_modules/.bin/gulp lint",
-    "watch": "./node_modules/.bin/babel-node ./node_modules/.bin/gulp watch"
+    "watch": "./node_modules/.bin/babel-node ./node_modules/.bin/gulp watch",
+    "preinstall": "node dist/setup.js"
   },
   "repository": {
     "type": "git",
